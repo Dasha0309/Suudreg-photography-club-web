@@ -1,0 +1,12 @@
+/* ─── NUM Photography Club — Main Stylesheet ─── */
+/* Each section has its own CSS file. Add new components here. */
+
+@import url('base.css');
+@import url('topbar.css');
+@import url('hero.css');
+@import url('info.css');
+@import url('gallery.css');
+@import url('events.css');
+@import url('join.css');
+@import url('bottombar.css');
+@import url('responsive.css');

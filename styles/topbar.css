@@ -1,0 +1,50 @@
+
+/* ─── TOPBAR ─── */
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.4rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  mix-blend-mode: normal;
+  transition: background 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+#topbar.scrolled {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(12px);
+}
+
+.topbar-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.topbar-nav {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.topbar-nav a {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(245, 243, 239, 0.8);
+  text-decoration: none;
+  transition: color 0.2s;
+  font-weight: 400;
+}
+
+.topbar-nav a:hover {
+  color: var(--accent);
+}

@@ -1,0 +1,22 @@
+{
+  "name": "num-photography-club-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://Dasha0309.github.io/Suudreg-photography-club-web",
+ "scripts": {
+  "build": "npx shx rm -rf dist && npx shx mkdir dist && npx shx cp index.html dist/ && npx shx cp -r styles dist/ && npx shx cp -r assets dist/ && npx shx cp -r components dist/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^25.8.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.98.0"
+  }
+}
