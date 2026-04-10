@@ -14,6 +14,20 @@
   transition: background 0.4s ease, backdrop-filter 0.4s ease;
 }
 
+.logo {
+  height: 50px; /* Логоны өндөр */
+  width: auto;  /* Өргөнийг автоматаар тохируулна */
+  object-fit: contain;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
 #topbar.scrolled {
   background: rgba(10, 10, 10, 0.85);
   backdrop-filter: blur(12px);
