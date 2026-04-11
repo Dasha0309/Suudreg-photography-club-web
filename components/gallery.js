@@ -1,29 +1,40 @@
 const galleryImages = [
-  { src: 'assets/images/image00001.png', alt: 'Exhibition Photo 1', title: 'Бүтээл #1' },
-  { src: 'assets/images/image00002.png', alt: 'Exhibition Photo 2', title: 'Бүтээл #2' },
-  { src: 'assets/images/image00003.png', alt: 'Exhibition Photo 3', title: 'Бүтээл #3' },
-  { src: 'assets/images/image00004.png', alt: 'Exhibition Photo 4', title: 'Бүтээл #4' },
-  { src: 'assets/images/image00005.png', alt: 'Exhibition Photo 5', title: 'Бүтээл #5' },
-  { src: 'assets/images/image00006.png', alt: 'Exhibition Photo 6', title: 'Бүтээл #6' },
-  { src: 'assets/images/buteel (1).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #7' },
-  { src: 'assets/images/buteel (2).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #8' },
-  { src: 'assets/images/buteel (3).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #9' },
-  { src: 'assets/images/buteel (4).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #10' },
-  { src: 'assets/images/buteel (5).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #11' },
-  { src: 'assets/images/buteel (6).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #12' },
-  { src: 'assets/images/buteel (7).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #13' },
-  { src: 'assets/images/buteel (8).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #14' },
-  { src: 'assets/images/buteel (9).jpg',  alt: 'Exhibition Photo', title: 'Бүтээл #15' },
-  { src: 'assets/images/buteel (10).jpg', alt: 'Exhibition Photo', title: 'Бүтээл #16' },
-  { src: 'assets/images/buteel (11).jpg', alt: 'Exhibition Photo', title: 'Бүтээл #17' },
-  { src: 'assets/images/buteel (12).jpg', alt: 'Exhibition Photo', title: 'Бүтээл #18' },
-  { src: 'assets/images/buteel (13).jpg', alt: 'Exhibition Photo', title: 'Бүтээл #19' },
-  { src: 'assets/images/buteel (14).jpg', alt: 'Exhibition Photo', title: 'Бүтээл #20' },
-  { src: 'assets/images/buteel (15).jpg', alt: 'Exhibition Photo', title: 'Бүтээл #21' },
-  { src: 'assets/images/muis.jpg',        alt: 'Exhibition Photo', title: 'Бүтээл #22' },
-  { src: 'assets/images/muis2.jpg',       alt: 'Exhibition Photo', title: 'Бүтээл #23' },
-  { src: 'assets/images/_MG_5770.jpg',   alt: 'Exhibition Photo', title: 'Бүтээл #24' },
+  { src: 'assets/images/optimized/image00001.webp', alt: 'Exhibition Photo 1', title: 'Бүтээл #1' },
+  { src: 'assets/images/optimized/image00002.webp', alt: 'Exhibition Photo 2', title: 'Бүтээл #2' },
+  { src: 'assets/images/optimized/image00003.webp', alt: 'Exhibition Photo 3', title: 'Бүтээл #3' },
+  { src: 'assets/images/optimized/image00004.webp', alt: 'Exhibition Photo 4', title: 'Бүтээл #4' },
+  { src: 'assets/images/optimized/image00005.webp', alt: 'Exhibition Photo 5', title: 'Бүтээл #5' },
+  { src: 'assets/images/optimized/image00006.webp', alt: 'Exhibition Photo 6', title: 'Бүтээл #6' },
+  { src: 'assets/images/optimized/buteel (1).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #7' },
+  { src: 'assets/images/optimized/buteel (2).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #8' },
+  { src: 'assets/images/optimized/buteel (3).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #9' },
+  { src: 'assets/images/optimized/buteel (4).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #10' },
+  { src: 'assets/images/optimized/buteel (5).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #11' },
+  { src: 'assets/images/optimized/buteel (6).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #12' },
+  { src: 'assets/images/optimized/buteel (7).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #13' },
+  { src: 'assets/images/optimized/buteel (8).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #14' },
+  { src: 'assets/images/optimized/buteel (9).webp',  alt: 'Exhibition Photo', title: 'Бүтээл #15' },
+  { src: 'assets/images/optimized/buteel (10).webp', alt: 'Exhibition Photo', title: 'Бүтээл #16' },
+  { src: 'assets/images/optimized/buteel (11).webp', alt: 'Exhibition Photo', title: 'Бүтээл #17' },
+  { src: 'assets/images/optimized/buteel (12).webp', alt: 'Exhibition Photo', title: 'Бүтээл #18' },
+  { src: 'assets/images/optimized/buteel (13).webp', alt: 'Exhibition Photo', title: 'Бүтээл #19' },
+  { src: 'assets/images/optimized/buteel (14).webp', alt: 'Exhibition Photo', title: 'Бүтээл #20' },
+  { src: 'assets/images/optimized/buteel (15).webp', alt: 'Exhibition Photo', title: 'Бүтээл #21' },
+  { src: 'assets/images/optimized/muis.webp',        alt: 'Exhibition Photo', title: 'Бүтээл #22' },
+  { src: 'assets/images/optimized/muis2.webp',       alt: 'Exhibition Photo', title: 'Бүтээл #23' },
+  { src: 'assets/images/optimized/_MG_5770.webp',    alt: 'Exhibition Photo', title: 'Бүтээл #24' },
 ];
+
+// ── ОЮУНЫ ӨМЧИЙН ХАМГААЛАЛТ ──
+// Баруун товчны цэс болон чирэх үйлдлийг хязгаарлана
+document.addEventListener('contextmenu', e => {
+  if (e.target.closest('.gallery-item, .fgp-item, .fgp-img-wrap, .fgp-lightbox, #lightbox')) {
+    e.preventDefault();
+  }
+});
+document.addEventListener('dragstart', e => {
+  if (e.target.tagName === 'IMG') e.preventDefault();
+});
 
 
 // Нэг хуудсанд харуулах зургийн тоо
@@ -120,7 +131,7 @@ function navigateLb(dir) {
   updateLbLikeBtn(currentLbIndex, getLikes()[currentLbIndex]);
 }
 
-function updateLbLikeBtn(idx, isLiked) {
+function updateLbLikeBtn(_idx, isLiked) {
   const btn = document.getElementById('fgp-lb-like');
   if (!btn) return;
   btn.classList.toggle('liked', !!isLiked);
@@ -480,7 +491,7 @@ document.getElementById('gallery').innerHTML = `
   <div class="gallery-grid">
     ${galleryImages.slice(0, PAGE_SIZE).map((img, i) => `
       <div class="gallery-item" data-index="${i}">
-        <img src="${img.src}" alt="${img.alt}" loading="lazy">
+        <img src="${img.src}" alt="${img.alt}" loading="lazy" draggable="false">
         <div class="gallery-item-overlay"></div>
       </div>
     `).join('')}
