@@ -14,7 +14,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/images/muis.jpg');
+  background-image: url('../assets/images/optimized/muis.webp');
   background-size: cover;
   background-position: center;
   transform: scale(1.05);
